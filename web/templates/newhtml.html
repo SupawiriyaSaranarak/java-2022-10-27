@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>iCoffee</title>
+        <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+    </head>
+    <body>
+        <header>
+            <section class="container">
+                <h1>iCoffee</h1>
+                <h1 class="slogan"> Your Slogan</h1>
+            </section>
+        </header>
+        <main>
+            <section class="container">
+                <h1 class="love">iCoffee</h1>
+                <button class="btn btn-primary product">Latte</button>
+            </section>
+            
+        </main>
+        <footer></footer>
+        <style>
+            :root {
+                --header-background: #639;
+                --footer-background: #555;
+            }
+            header{
+                background: var(--header-background);
+                height: 20rem;
+                color: white;
+            }
+            .love {
+                color: pink;
+            }
+            footer {
+                background: var(--footer-background);
+                height: 20rem;
+            }
+            main {
+                height: 40rem;
+                padding-top: 2rem; /* set at parent*/
+            }
+            .product {
+                width: 8.5rem;
+            }
+            .btn-primary { /*edit bootstrap class*/
+                background: brown;
+            }
+            .slogan {
+                font-size: 4rem;
+                margin-top: 4rem; /* set at child*/
+            }
+        </style>
+        
+    </body>
+</html>
+
